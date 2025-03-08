@@ -22,11 +22,6 @@ If you like that too, give me a shout
 - **[Lander-Transmitter](https://github.com/ETM-Code/Lander-Code):** A project to optimise the transmission and receipt of data from a lander. Also contains a custom serial plotter.
 
 
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ETM-Code&show_icons=true&theme=radical)
-
 ## 📫 Contact Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Eoghan%20Collins-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/eoghan-timothy-collins/)
