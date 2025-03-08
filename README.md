@@ -15,7 +15,7 @@ If you like that too, give me a shout
 ![Electron](https://skillicons.dev/icons?i=electron)
 
 
-## 🚀 Projects
+## 🚀 Favourite Projects
 
 - **[GridAI](https://github.com/ETM-Code/eirgrid):** Using Policy Gradient Reinforcement Learning to Design the Future of the Irish Power Grid (a blazingly fast, custom-built AI in Rust to solve climate change policy (sort of))
 - **[ForceField](https://github.com/ETM-Code/forceField)** & **[ESP-Now-Node](https://github.com/ETM-Code/ESP-Now-Node):** Projects built in the Patch programme for concussion detecting helmet sensors.
