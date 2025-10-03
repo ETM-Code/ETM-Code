@@ -17,6 +17,7 @@ If you like that too, give me a shout
 
 ## 🚀 Favourite Projects
 
+-- **[StudySmith](https://studysmith.app):** The learning app of the future, using AI to unlock potential, increase consistency, and help everyone learn better.
 - **[GridAI](https://github.com/ETM-Code/eirgrid):** Using Policy Gradient Reinforcement Learning to Design the Future of the Irish Power Grid (a blazingly fast, custom-built AI in Rust to solve climate change policy (sort of))
 - **[ForceField](https://github.com/ETM-Code/forceField)** & **[ESP-Now-Node](https://github.com/ETM-Code/ESP-Now-Node):** Projects built in the Patch programme for concussion detecting helmet sensors.
 - **[Lander-Transmitter](https://github.com/ETM-Code/Lander-Code):** A project to optimise the transmission and receipt of data from a lander. Also contains a custom serial plotter.
