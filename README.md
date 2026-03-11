@@ -24,6 +24,7 @@ If you like that too, give me a shout
 - **[terminal-banana](https://github.com/ETM-Code/terminal-banana):** CLI tool for AI image generation using Gemini Image APIs.
 - **[canvascli](https://github.com/ETM-Code/canvascli):** CLI for browsing Canvas LMS courses, checking assignments, and downloading content into PDFs.
 - **[scrivenerCLI](https://github.com/ETM-Code/scrivenerCLI):** Non-interactive CLI for Scrivener 3 projects. Built for automation and AI agent workflows.
+- **[Music-Platform-Converter](https://github.com/ETM-Code/Music-Platform-Converter):** Convert playlists between Apple Music, Spotify, and YouTube Music.
 - **[ForceField](https://github.com/ETM-Code/forceField)** & **[ESP-Now-Node](https://github.com/ETM-Code/ESP-Now-Node):** Concussion-detecting helmet sensors built in the Patch programme.
 - **[Lander-Transmitter](https://github.com/ETM-Code/Lander-Code):** Optimised data transmission from a rocket lander, with a custom serial plotter.
 - **[snakestral](https://github.com/ETM-Code/snakestral):** Watch Mistral AI play Snake. A demo of spatial reasoning in LLMs.
