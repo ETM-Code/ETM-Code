@@ -27,6 +27,7 @@ If you like that too, give me a shout
 - **[Music-Platform-Converter](https://github.com/ETM-Code/Music-Platform-Converter):** Convert playlists between Apple Music, Spotify, and YouTube Music.
 - **[ForceField](https://github.com/ETM-Code/forceField)** & **[ESP-Now-Node](https://github.com/ETM-Code/ESP-Now-Node):** Concussion-detecting helmet sensors built in the Patch programme.
 - **[Lander-Transmitter](https://github.com/ETM-Code/Lander-Code):** Optimised data transmission from a rocket lander, with a custom serial plotter.
+- **[exam-papers](https://github.com/ETM-Code/exam-papers):** CLI and API for bulk-downloading Irish State Exam papers. Reverse-engineered from the examinations.ie archive.
 - **[snakestral](https://github.com/ETM-Code/snakestral):** Watch Mistral AI play Snake. A demo of spatial reasoning in LLMs.
 
 
