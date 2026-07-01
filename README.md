@@ -19,6 +19,7 @@ If you like that too, give me a shout
 
 - **[StudySmith](https://studysmith.app):** The learning app of the future, using AI to unlock potential, increase consistency, and help everyone learn better.
 - **[GridAI](https://github.com/ETM-Code/eirgrid):** Using Policy Gradient Reinforcement Learning to design the future of the Irish power grid. A blazingly fast, custom-built AI in Rust.
+- **[Project Tarski](https://github.com/ETM-Code/Project-Tarski):** An analogue neuromorphic spiking neural network accelerator built from discrete components, classifying MNIST in analogue electronics at a fraction of the power a digital chip needs.
 - **[Quill](https://github.com/ETM-Code/quill):** A fast, native macOS markdown editor with WYSIWYG, LaTeX math, and syntax highlighting. Just 4.6 MB.
 - **[fileconvert](https://github.com/ETM-Code/fileconvert):** Universal file converter that runs entirely in your browser via WebAssembly. No uploads, no servers.
 - **[modelRunner](https://github.com/ETM-Code/modelRunner):** Agent orchestration tool for debates, critique loops, and exploratory research between Claude and Codex.
