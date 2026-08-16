@@ -1,0 +1,42 @@
+name: transient-binary-bridge
+
+on:
+  push:
+    branches:
+      - agent/transient-binary-bridge
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download pinned public artefacts
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p bundle
+          curl --fail --location --retry 5 --output bundle/common.tar.zst \
+            https://github.com/fossi-foundation/ciel-releases/releases/download/sky130-026824c7969ce6f4fc9678e6ca04b0a06a596c4b/common.tar.zst
+          curl --fail --location --retry 5 --output bundle/sky130_fd_pr.tar.zst \
+            https://github.com/fossi-foundation/ciel-releases/releases/download/sky130-026824c7969ce6f4fc9678e6ca04b0a06a596c4b/sky130_fd_pr.tar.zst
+          curl --fail --location --retry 5 --output bundle/ngspice_44.2+ds-1_amd64.deb \
+            https://ftp.ie.debian.org/debian/pool/main/n/ngspice/ngspice_44.2%2Bds-1_amd64.deb
+          cat > SHA256SUMS.expected <<'EOF'
+          457fbf1d0a89f5d7692a0c8a185e51932ae44f0b6ac5547e6f1979d62eafede2  bundle/common.tar.zst
+          a5eef42acd8e21f5612ba4eb7648fefb2f0607687a57d5056bec8518bf2963fa  bundle/sky130_fd_pr.tar.zst
+          4d76721dd91416055b1088cfc58626d4db47b91afda7c73258c0968ba6e4d24e  bundle/ngspice_44.2+ds-1_amd64.deb
+          EOF
+          sha256sum --check SHA256SUMS.expected
+          cp SHA256SUMS.expected bundle/SHA256SUMS
+
+      - name: Upload verified bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: pinned-analogue-tooling
+          path: bundle/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
